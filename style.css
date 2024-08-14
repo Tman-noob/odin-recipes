@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color:blanchedalmond;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10%;
+    border-radius: 5%;
+    margin: auto;
+}
