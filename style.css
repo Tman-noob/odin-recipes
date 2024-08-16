@@ -5,6 +5,11 @@ body {
     position: absolute;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     list-style-type: none;
     /* margin: 0; */
@@ -93,6 +98,10 @@ h1 {
     margin-left: -10px;
 }
 
+.hero {
+    flex: 1 1 auto;
+}
+
 .opener {
     background-color: #f4d9af;
     color: #333333;
@@ -158,6 +167,7 @@ h1 {
     height: auto;
     width: 50;
     opacity: 1;
+    display: inline-flex;
 }
 
 .img:hover {
